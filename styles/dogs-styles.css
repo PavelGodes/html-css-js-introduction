@@ -17,6 +17,8 @@ text-align: center;
     flex-direction: column;
     align-items: center;
     margin-top: 2.5vh;
+    position: relative;
+    
 
 
 }
@@ -28,6 +30,13 @@ border-radius: 25%;
 }
 .details-title {
 display: block;
+font-family: calibri;
+font-style: italic;
+background-color: blanchedalmond;
+position: absolute;
+left: 4vw;
+bottom: 4vw;
+
 
 }
 .thumbnails-list {
@@ -35,7 +44,7 @@ list-style: none;
 display: flex;
 flex-direction: row;
 flex-wrap: wrap;
-max-height: 25vh;
+max-height: 20vh;
 overflow-y: auto;
 justify-content: space-around;
 padding-left: 0;
@@ -64,4 +73,7 @@ height: 15vw;
 }
 .thumbnails-anchor {
    text-decoration: none;
+}
+.thumbnails-item:hover{
+    transform: scale(1.2);
 }
