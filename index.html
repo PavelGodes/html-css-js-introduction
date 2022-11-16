@@ -5,8 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles/wordle.css">
 </head>
 <body>
-   <label style="font-size: 40px;display: block; text-align: center;">My name is Yuri Granovsky</label> 
+    <input type="text" onchange="onChange(event)">
+    <section class="word-guess">
+    <div class="letter-guess"></div>
+    <div class="letter-guess"></div>
+    <div class="letter-guess"></div>
+    <div class="letter-guess"></div>
+    <div class="letter-guess"></div>    
+    </section>
+    <script src="src/wordle.js"> </script>
 </body>
 </html>
